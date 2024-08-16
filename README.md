@@ -1,7 +1,7 @@
 # Mujix
 
 - static music player
-- inbuilt with 6 audio files
+- inbuilt with 26 audio files
 
 ## Mujix `v1.0`
 
