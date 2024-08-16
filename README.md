@@ -9,7 +9,6 @@
 ``` bash
 npm i react-native-vector-icons
 ```
-Install:
 
 ``` bash
 npm i react-native-track-player
