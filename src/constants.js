@@ -85,7 +85,7 @@ export const playListData = [
         artist: 'Kiran Kamath | KK',
         album: 'Woh Lamhe',
         artwork: 'https://c.saavncdn.com/832/Woh-Lamhe-Hindi-2006-20220413121014-500x500.jpg',
-        url: require('./assets/audio/KyaMujhePyaarHaiRemix.mp3')
+        url: require('./assets/audio/KyaMujhePyarHaiRemix.mp3')
     },
     {
         id: 12,
