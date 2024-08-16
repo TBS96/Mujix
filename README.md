@@ -13,3 +13,7 @@ npm i react-native-vector-icons
 ``` bash
 npm i react-native-track-player
 ```
+
+``` bash
+npm i @react-native-community/slider
+```
