@@ -1,5 +1,5 @@
 import { Dimensions, FlatList, Image, StyleSheet, Text, View } from 'react-native'
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import TrackPlayer, { Event, useTrackPlayerEvents } from 'react-native-track-player'
 import { playListData } from '../constants';
 import SongInfo from '../components/SongInfo';
@@ -11,6 +11,10 @@ const {width} = Dimensions.get('window');
 const MusicPlayer = () => {
 
     const [track, setTrack] = useState();
+
+    useEffect(() => {
+        console.log(playListData)
+    }, [])
 
     useTrackPlayerEvents([Event.PlaybackActiveTrackChanged], async event => {
         switch(event.type)
